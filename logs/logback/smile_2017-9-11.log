@@ -1,0 +1,51 @@
+2017-9-11 09:50:09 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 9212 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-11 09:50:09 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-11 09:50:09 main INFO No active profile set, falling back to default profiles: default
+2017-9-11 09:50:25 main INFO Started ShiroSpringbootApplication in 15.563 seconds (JVM running for 16.769)
+2017-9-11 09:59:44 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT from_user_id FROM user_run_as WHERE to_user_id = ? 
+2017-9-11 09:59:45 http-nio-8080-exec-1 DEBUG ==> Parameters: 1(Integer)
+2017-9-11 09:59:45 http-nio-8080-exec-1 DEBUG <==      Total: 0
+2017-9-11 09:59:45 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT to_user_id FROM user_run_as WHERE from_user_id = ? 
+2017-9-11 09:59:45 http-nio-8080-exec-1 DEBUG ==> Parameters: 1(Integer)
+2017-9-11 09:59:45 http-nio-8080-exec-1 DEBUG <==      Total: 0
+2017-9-11 10:06:15 http-nio-8080-exec-4 DEBUG ==>  Preparing: SELECT from_user_id FROM user_run_as WHERE to_user_id = ? 
+2017-9-11 10:06:15 http-nio-8080-exec-4 DEBUG ==> Parameters: 2(Integer)
+2017-9-11 10:06:15 http-nio-8080-exec-4 DEBUG <==      Total: 0
+2017-9-11 10:06:15 http-nio-8080-exec-4 DEBUG ==>  Preparing: SELECT to_user_id FROM user_run_as WHERE from_user_id = ? 
+2017-9-11 10:06:15 http-nio-8080-exec-4 DEBUG ==> Parameters: 2(Integer)
+2017-9-11 10:06:15 http-nio-8080-exec-4 DEBUG <==      Total: 0
+2017-9-11 10:06:35 http-nio-8080-exec-5 DEBUG ==>  Preparing: SELECT from_user_id FROM user_run_as WHERE to_user_id = ? 
+2017-9-11 10:06:35 http-nio-8080-exec-5 DEBUG ==> Parameters: 88(Integer)
+2017-9-11 10:06:35 http-nio-8080-exec-5 DEBUG <==      Total: 0
+2017-9-11 10:06:35 http-nio-8080-exec-5 DEBUG ==>  Preparing: SELECT to_user_id FROM user_run_as WHERE from_user_id = ? 
+2017-9-11 10:06:35 http-nio-8080-exec-5 DEBUG ==> Parameters: 88(Integer)
+2017-9-11 10:06:35 http-nio-8080-exec-5 DEBUG <==      Total: 0
+2017-9-11 10:39:45 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 15876 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-11 10:39:45 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-11 10:39:45 main INFO No active profile set, falling back to default profiles: default
+2017-9-11 10:40:04 main INFO Started ShiroSpringbootApplication in 20.242 seconds (JVM running for 22.329)
+2017-9-11 13:56:46 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 11736 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-11 13:56:46 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-11 13:56:46 main INFO No active profile set, falling back to default profiles: default
+2017-9-11 13:57:06 main INFO Started ShiroSpringbootApplication in 20.19 seconds (JVM running for 21.741)
+2017-9-11 14:57:49 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 17372 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-11 14:57:49 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-11 14:57:49 main INFO No active profile set, falling back to default profiles: default
+2017-9-11 14:58:09 main INFO Started ShiroSpringbootApplication in 20.463 seconds (JVM running for 21.969)
+2017-9-11 15:11:03 http-nio-8080-exec-9 DEBUG ==>  Preparing: INSERT INTO user_run_as(from_user_id,to_user_id) VALUES(?, ?) 
+2017-9-11 15:15:49 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 2772 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-11 15:15:49 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-11 15:15:49 main INFO No active profile set, falling back to default profiles: default
+2017-9-11 15:16:12 main INFO Started ShiroSpringbootApplication in 23.607 seconds (JVM running for 26.162)
+2017-9-11 15:16:44 http-nio-8080-exec-1 DEBUG ==>  Preparing: INSERT INTO user_run_as(from_user_id,to_user_id) VALUES(?, ?) 
+2017-9-11 15:18:07 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 2308 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-11 15:18:07 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-11 15:18:07 main INFO No active profile set, falling back to default profiles: default
+2017-9-11 15:18:28 main INFO Started ShiroSpringbootApplication in 21.679 seconds (JVM running for 23.406)
+2017-9-11 15:18:41 http-nio-8080-exec-1 DEBUG ==>  Preparing: INSERT INTO user_run_as(from_user_id,to_user_id) VALUES(?, ?) 
+2017-9-11 15:22:41 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT from_user_id FROM user_run_as WHERE to_user_id = ? 
+2017-9-11 15:22:42 http-nio-8080-exec-2 DEBUG ==> Parameters: 3(Integer)
+2017-9-11 15:22:42 http-nio-8080-exec-2 DEBUG <==      Total: 0
+2017-9-11 15:22:42 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT to_user_id FROM user_run_as WHERE from_user_id = ? 
+2017-9-11 15:22:42 http-nio-8080-exec-2 DEBUG ==> Parameters: 3(Integer)
+2017-9-11 15:22:42 http-nio-8080-exec-2 DEBUG <==      Total: 0

@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>xxxxxxxxxxx</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+          name="viewport">
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-box-body">
+            <form id="inputForm">
+                <div class="form-group has-feedback">
+                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                    <input id="YHM" name="YHM" class="form-control" type="text"
+                           placeholder="请输入用户名" style="width: 100%;" />
+                </div>
+                <div class="form-group has-feedback">
+                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                    <input id="MM" name="MM" class="form-control" type="password"
+                           placeholder="请输入密码" style="width: 100%;" />
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="checkbox icheck">
+                            <label>
+                                <input id="rememberMe" type="checkbox">
+                                记住此密码
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">
+                            登录
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- jQuery 2.2.3 -->
+    <script src="../script/jquery-2.2.3.min.js"></script>
+    <script src="../script/jquery.cookie.js"></script>
+    <script src="../script/jquery.validate.js"></script>
+    <!-- core -->
+    <script src="../script/js/core.js"></script>
+    <!-- messages -->
+    <script src="../script/messages_zh.js"></script>
+    <script>
+        var baseUrl;
+        $(function () {
+            baseUrl = $.getBaseUrl();
+            $("#inputForm").validate({
+                onkeyup: false,
+                onclick: false,
+                onfocusout: false,
+                rules: {
+                    YHM: {
+                        required: true
+                    },
+                    MM: {
+                        required: true
+                    }
+                },
+                messages: {
+                    YHM: {
+                        required: "请输入用户名"
+                    },
+                    MM: {
+                        required: "请输入密码"
+                    }
+                },
+                invalidHandler: function () {
+                    return false;
+                },
+                submitHandler: function () {
+                    login();
+                    return false;//阻止表单提交
+                }
+            });
+
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue',
+                increaseArea: '20%' // optional
+            });
+
+            console.log($.cookie("rmbUser"))
+            if ($.cookie("rmbUser") == "true") {
+                $("#RememberMe").prop("checked", true);
+                $("#YHM").val($.cookie("YHM"));
+                $("#MM").val($.cookie("MM"));
+            }
+        });
+
+        function login() {
+            var params = {};
+            params.yhm = $("#YHM").val();
+            params.mm = $("#MM").val();
+            $.ajax({
+                url: baseUrl + "/wiselbs-webapp/rest/ws/ptyh/login",
+                data: { 'data': JSON.stringify(params) },
+                type: "post",
+                crossDomain: true,
+                dataType: "json",
+                success: function (result) {
+                    if (result.status) {
+                        var body = JSON.parse(result.body);
+                        sessionStorage.setItem("YHM", params.yhm);
+                        sessionStorage.setItem("token", body.tokenKey);
+                        var zdjl = {};
+                        zdjl.data = body.zdjl;
+                        for (var i = 0; i < zdjl.data.length; i++) {
+                            if (zdjl.data[i] == '330e5351699544e18070bbb9e15687c4-1486733734-301')
+                            {
+                               
+                            }
+                        }
+                        sessionStorage.setItem("ZDJL", JSON.stringify(zdjl));
+                        saveMM();
+                        window.location.href = "../index.html";
+                    } else {
+                        layer.alert(result.msg);
+                    }
+                },
+                error: function (result) {
+                    layer.alert("错误" + ":" + result.status + "-" + result.statusText);
+                },
+            });
+        }
+
+        function saveMM() {
+            if ($("#RememberMe").prop("checked")) {
+                $.cookie("rmbUser", "true", { expires: 7 }); //存储一个带7天期限的cookie
+                $.cookie("YHM", $("#YHM").val(), { expires: 7 });
+                $.cookie("MM", $("#MM").val(), { expires: 7 });
+            }
+            else {
+                $.cookie("rmbUser", "false", { expire: -1 });
+                $.cookie("YHM", "", { expires: -1 });
+                $.cookie("MM", "", { expires: -1 });
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+2017-9-1 15:39:05 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 13248 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 15:39:05 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 15:39:05 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 15:39:57 main INFO Started ShiroSpringbootApplication in 53.359 seconds (JVM running for 55.117)
+2017-9-1 15:41:37 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT * FROM user WHERE (uname=liubei) AND (password=null) 
+2017-9-1 15:41:37 http-nio-8080-exec-1 DEBUG ==> Parameters: 
+2017-9-1 15:49:29 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 13560 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 15:49:29 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 15:49:29 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 15:49:40 main INFO Started ShiroSpringbootApplication in 11.088 seconds (JVM running for 12.539)
+2017-9-1 15:51:02 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 3020 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 15:51:02 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 15:51:02 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 15:51:12 main INFO Started ShiroSpringbootApplication in 11.646 seconds (JVM running for 13.258)
+2017-9-1 15:51:21 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT * FROM user WHERE (uname=liubei) 
+2017-9-1 15:51:21 http-nio-8080-exec-1 DEBUG ==> Parameters: 
+2017-9-1 15:52:37 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 12396 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 15:52:37 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 15:52:37 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 15:52:48 main INFO Started ShiroSpringbootApplication in 10.949 seconds (JVM running for 12.235)
+2017-9-1 15:53:03 http-nio-8080-exec-10 DEBUG ==>  Preparing: select * from user where uname=liubei 
+2017-9-1 15:53:03 http-nio-8080-exec-10 DEBUG ==> Parameters: 
+2017-9-1 15:58:51 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 14764 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 15:58:51 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 15:58:51 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 15:59:02 main INFO Started ShiroSpringbootApplication in 11.958 seconds (JVM running for 13.317)
+2017-9-1 15:59:54 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 10232 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 15:59:54 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 15:59:54 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 16:00:05 main INFO Started ShiroSpringbootApplication in 11.476 seconds (JVM running for 12.885)
+2017-9-1 16:00:17 http-nio-8080-exec-4 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:00:17 http-nio-8080-exec-4 DEBUG ==> Parameters: liubei(String)
+2017-9-1 16:00:17 http-nio-8080-exec-4 DEBUG <==      Total: 1
+2017-9-1 16:52:55 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 7128 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 16:52:55 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 16:52:55 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 16:53:10 main INFO Started ShiroSpringbootApplication in 16.07 seconds (JVM running for 17.6)
+2017-9-1 16:54:01 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:54:01 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-1 16:54:01 http-nio-8080-exec-1 DEBUG <==      Total: 1
+2017-9-1 16:54:18 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:54:18 http-nio-8080-exec-2 DEBUG ==> Parameters: 78(String)
+2017-9-1 16:54:18 http-nio-8080-exec-2 DEBUG <==      Total: 0
+2017-9-1 16:56:35 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 11060 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 16:56:35 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 16:56:35 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 16:56:51 main INFO Started ShiroSpringbootApplication in 16.953 seconds (JVM running for 18.57)
+2017-9-1 16:56:59 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:56:59 http-nio-8080-exec-1 DEBUG ==> Parameters: 78(String)
+2017-9-1 16:56:59 http-nio-8080-exec-1 DEBUG <==      Total: 0
+2017-9-1 16:57:03 http-nio-8080-exec-3 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:57:03 http-nio-8080-exec-3 DEBUG ==> Parameters: 78(String)
+2017-9-1 16:57:03 http-nio-8080-exec-3 DEBUG <==      Total: 0
+2017-9-1 16:58:26 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 4292 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 16:58:26 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 16:58:26 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 16:58:41 main INFO Started ShiroSpringbootApplication in 15.356 seconds (JVM running for 16.698)
+2017-9-1 16:58:49 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:58:49 http-nio-8080-exec-1 DEBUG ==> Parameters: 78(String)
+2017-9-1 16:58:49 http-nio-8080-exec-1 DEBUG <==      Total: 0
+2017-9-1 16:59:20 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 16:59:20 http-nio-8080-exec-2 DEBUG ==> Parameters: 78(String)
+2017-9-1 16:59:20 http-nio-8080-exec-2 DEBUG <==      Total: 0
+2017-9-1 17:00:18 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 18172 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 17:00:18 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 17:00:18 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 17:00:34 main INFO Started ShiroSpringbootApplication in 16.008 seconds (JVM running for 18.192)
+2017-9-1 17:00:40 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 17:00:40 http-nio-8080-exec-1 DEBUG ==> Parameters: 78(String)
+2017-9-1 17:00:40 http-nio-8080-exec-1 DEBUG <==      Total: 0
+2017-9-1 17:01:01 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 17:01:01 http-nio-8080-exec-2 DEBUG ==> Parameters: 78(String)
+2017-9-1 17:01:01 http-nio-8080-exec-2 DEBUG <==      Total: 0
+2017-9-1 17:01:12 http-nio-8080-exec-3 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 17:01:12 http-nio-8080-exec-3 DEBUG ==> Parameters: liubei(String)
+2017-9-1 17:01:12 http-nio-8080-exec-3 DEBUG <==      Total: 1
+2017-9-1 17:15:32 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 15472 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-1 17:15:32 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-1 17:15:32 main INFO No active profile set, falling back to default profiles: default
+2017-9-1 17:15:48 main INFO Started ShiroSpringbootApplication in 16.935 seconds (JVM running for 18.462)
+2017-9-1 17:16:52 http-nio-8080-exec-9 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 17:16:52 http-nio-8080-exec-9 DEBUG ==> Parameters: null
+2017-9-1 17:16:52 http-nio-8080-exec-9 DEBUG <==      Total: 0
+2017-9-1 17:17:05 http-nio-8080-exec-8 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-1 17:17:05 http-nio-8080-exec-8 DEBUG ==> Parameters: null
+2017-9-1 17:17:05 http-nio-8080-exec-8 DEBUG <==      Total: 0

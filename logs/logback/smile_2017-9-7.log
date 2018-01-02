@@ -1,0 +1,244 @@
+2017-9-7 09:28:20 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 4288 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 09:28:20 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 09:28:20 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 11:41:17 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 1328 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 11:41:17 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 11:41:17 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 11:41:44 main INFO Started ShiroSpringbootApplication in 27.76 seconds (JVM running for 30.089)
+2017-9-7 11:48:26 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 14324 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 11:48:26 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 11:48:26 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 11:48:50 main INFO Started ShiroSpringbootApplication in 24.766 seconds (JVM running for 26.881)
+2017-9-7 11:49:21 http-nio-8080-exec-3 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==> Parameters: liubei(String)
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG <==      Total: 1
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==> Parameters: liubei(String)
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG <==      Total: 2
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==> Parameters: liubei(String)
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG <==      Total: 2
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 11:49:22 http-nio-8080-exec-3 DEBUG <==    Updates: 1
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==> Parameters: liubei(String)
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG <==      Total: 1
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==> Parameters: liubei(String)
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG <==      Total: 2
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==> Parameters: liubei(String)
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG <==      Total: 2
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 11:50:13 http-nio-8080-exec-9 DEBUG <==    Updates: 1
+2017-9-7 15:20:28 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 13376 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 15:20:28 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 15:20:28 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 15:20:54 main INFO Started ShiroSpringbootApplication in 26.272 seconds (JVM running for 28.408)
+2017-9-7 15:44:20 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 13980 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 15:44:20 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 15:44:20 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 15:44:44 main INFO Started ShiroSpringbootApplication in 24.648 seconds (JVM running for 26.511)
+2017-9-7 15:47:47 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 12668 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 15:47:47 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 15:47:47 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 15:48:12 main INFO Started ShiroSpringbootApplication in 25.105 seconds (JVM running for 26.899)
+2017-9-7 15:49:10 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:49:10 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:10 http-nio-8080-exec-2 DEBUG <==      Total: 1
+2017-9-7 15:49:11 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:11 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:11 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 15:49:11 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:11 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:11 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG <==      Total: 1
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG <==      Total: 2
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:22 http-nio-8080-exec-10 DEBUG <==      Total: 2
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG <==      Total: 1
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG <==      Total: 2
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:27 http-nio-8080-exec-8 DEBUG <==      Total: 2
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG <==      Total: 1
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG <==      Total: 2
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:33 http-nio-8080-exec-7 DEBUG <==      Total: 2
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG <==      Total: 1
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG <==      Total: 2
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:41 http-nio-8080-exec-1 DEBUG <==      Total: 2
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG <==      Total: 1
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG <==      Total: 2
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:49:50 http-nio-8080-exec-6 DEBUG <==      Total: 2
+2017-9-7 15:49:51 http-nio-8080-exec-6 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 15:49:51 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String), 1(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 15:49:51 http-nio-8080-exec-6 DEBUG <==    Updates: 1
+2017-9-7 15:50:31 http-nio-8080-exec-7 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:50:31 http-nio-8080-exec-7 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:50:31 http-nio-8080-exec-7 DEBUG <==      Total: 1
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG <==      Total: 1
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG <==      Total: 2
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:51:17 http-nio-8080-exec-8 DEBUG <==      Total: 2
+2017-9-7 15:51:18 http-nio-8080-exec-8 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 15:51:18 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String), 1(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 15:51:18 http-nio-8080-exec-8 DEBUG <==    Updates: 1
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG <==      Total: 1
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG <==      Total: 2
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String)
+2017-9-7 15:51:48 http-nio-8080-exec-6 DEBUG <==      Total: 2
+2017-9-7 15:52:23 http-nio-8080-exec-6 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 15:52:23 http-nio-8080-exec-6 DEBUG ==> Parameters: liubei(String), 1(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 15:52:23 http-nio-8080-exec-6 DEBUG <==    Updates: 1
+2017-9-7 15:58:11 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 2572 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 15:58:11 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 15:58:11 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 16:00:08 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 9108 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 16:00:08 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 16:00:08 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 16:00:36 main INFO Started ShiroSpringbootApplication in 28.816 seconds (JVM running for 30.695)
+2017-9-7 16:01:24 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:01:25 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:01:25 http-nio-8080-exec-1 DEBUG <==      Total: 1
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG <==      Total: 1
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG <==      Total: 2
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG <==      Total: 2
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:02:09 http-nio-8080-exec-10 DEBUG <==    Updates: 1
+2017-9-7 16:03:32 http-nio-8080-exec-8 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:03:32 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:03:32 http-nio-8080-exec-8 DEBUG <==      Total: 1
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG <==      Total: 1
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:03:48 http-nio-8080-exec-2 DEBUG <==    Updates: 1
+2017-9-7 16:08:01 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 11784 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 16:08:01 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 16:08:01 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 16:08:26 main INFO Started ShiroSpringbootApplication in 25.262 seconds (JVM running for 27.575)
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG <==      Total: 1
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG <==      Total: 2
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG <==      Total: 2
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:09:07 http-nio-8080-exec-8 DEBUG <==    Updates: 1
+2017-9-7 16:40:01 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 9576 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 16:40:01 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 16:40:01 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 16:40:25 main INFO Started ShiroSpringbootApplication in 24.665 seconds (JVM running for 26.735)
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG <==      Total: 1
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG <==      Total: 2
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG <==      Total: 2
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:40:50 http-nio-8080-exec-1 DEBUG <==    Updates: 1
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG <==      Total: 1
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:41:06 http-nio-8080-exec-2 DEBUG <==    Updates: 1
+2017-9-7 16:41:40 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 3728 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 16:41:40 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 16:41:40 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 16:42:05 main INFO Started ShiroSpringbootApplication in 25.03 seconds (JVM running for 26.769)
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG <==      Total: 1
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG <==      Total: 2
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:42:26 http-nio-8080-exec-2 DEBUG <==    Updates: 1
+2017-9-7 16:55:37 main INFO Starting ShiroSpringbootApplication on Lenovo-PC with PID 11216 (started by ko in C:\Users\ko\Workspaces\spring tool suite\shiro-springboot)
+2017-9-7 16:55:37 main DEBUG Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-9-7 16:55:37 main INFO No active profile set, falling back to default profiles: default
+2017-9-7 16:56:08 main INFO Started ShiroSpringbootApplication in 31.456 seconds (JVM running for 34.125)
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==>  Preparing: select * from user where uname = ? 
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG <==      Total: 1
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG <==      Total: 2
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==>  Preparing: SELECT a.uname,c.pname,e.rname FROM user as a LEFT JOIN gl_user_permission as b ON a.id = b.user_id LEFT JOIN permission as c ON b.permission_id = c.id LEFT JOIN gl_permission_role as d ON d.permission_id = c.id LEFT JOIN role as e ON e.id = d.role_id WHERE a.uname = ? 
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String)
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG <==      Total: 2
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==>  Preparing: UPDATE user SET uname=?,islock=?,password=? WHERE id =? 
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG ==> Parameters: liubei(String), 0(Integer), c5b7e4bf2f0a42e83085b039e156248a(String), 2(Integer)
+2017-9-7 16:56:33 http-nio-8080-exec-1 DEBUG <==    Updates: 1
